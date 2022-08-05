@@ -6,11 +6,12 @@ function App() {
   const me = require('./img/Alexander_Zeitlhofer300400.jpg')
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="content-container">
         <div className="me-picture-container">
           <img src={me} alt="A picture of me :)" />
         </div>
+        
       </div>
 
     </>
