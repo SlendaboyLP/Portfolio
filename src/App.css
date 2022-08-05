@@ -1,0 +1,23 @@
+.me-picture-container img{
+  margin: 1rem;
+  width: 15vw;
+  height: auto;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.me-picture-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+/* import tailwindcss cause i dont want to do css responsitivity */
+
+@media screen and (max-width: 1600px) {
+  .me-picture-container img{
+    width: 20vw;
+  }
+}
+

@@ -7,7 +7,12 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <img src={me} alt="A picture of me :)" />
+      <div className="content-container">
+        <div className="me-picture-container">
+          <img src={me} alt="A picture of me :)" />
+        </div>
+      </div>
+
     </>
   );
 }
