@@ -14,7 +14,6 @@
     align-items: center;
 }
 
-
 @media screen and (max-width: 500px){
   .me-picture-container img{
     margin-top: -1px;
@@ -22,10 +21,4 @@
       border: 1vw solid var(--primary);
       border-radius: 0;
   }
-}
-
-
-
-  
-  
-  
+} 

@@ -1,15 +1,28 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
-import Content from './Content';
+import {Route, Routes} from 'react-router-dom'
+
+import Home from './Home'
+import Projects from './Projects';
+import Contact from './Contact';
+import About from './About';
+
+
+
 
 function App() {
-
   return (
     <>
       <Navbar />
-      <Content />
+      {/* <Content /> */}
 
+      <Routes>
+        <Route path='/' element={<Home></Home>} />
+        <Route path='/Projects' element={<Projects></Projects>}/>
+        <Route path='/Contact' element={<Contact></Contact>}/>
+        <Route path='/About' element={<About></About>}/>
+      </Routes>
     </>
   );
 }
