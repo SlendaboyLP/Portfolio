@@ -3,10 +3,10 @@ import './App.css';
 import Navbar from './Navbar';
 import {Route, Routes} from 'react-router-dom'
 
-import Home from './Home'
-import Projects from './Projects';
-import Contact from './Contact';
-import About from './About';
+import Home from './home/Home'
+import Projects from './projects/Projects';
+import Contact from './contact/Contact';
+import About from './about/About';
 
 
 

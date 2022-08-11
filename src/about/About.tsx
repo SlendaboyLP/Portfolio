@@ -3,7 +3,7 @@ import './About.css'
 
 export default function About() {
 
-  const me = require('./img/pic.jpg')
+  const me = require('../img/pic.jpg')
   return (
     <div className="content-container">
       <div className="me-picture-container">

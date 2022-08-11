@@ -4,6 +4,11 @@
     --background:#171717;
 }
 
+
+
 html, body{
-    background-color: var(--background);
+    /* background-color: var(--background); */
+}
+body::-webkit-scrollbar-track {
+    background: var(--primary);        /* color of the tracking area */
 }
